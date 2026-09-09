@@ -10,7 +10,7 @@ R: Muestra la fecha, la hora, el hilo (thread), la clase y el método desde dond
 
 TABLA DE NIVELES 
 | Configuración | SEVERE | WARNING | INFO | FINE |
-|---|---|---|---|---|
+
 | SEVERE | Sí | No | No | No |
 | WARNING | Sí | Sí | No | No |
 | INFO | Sí | Sí | Sí | No |
