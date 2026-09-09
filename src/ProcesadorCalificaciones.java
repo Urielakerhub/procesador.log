@@ -196,10 +196,4 @@ public class ProcesadorCalificaciones {
             );
         }
     }
-
-    // Metodo con error sintactico intencional para modificar el codigo
-    public static void errorInesperadoFicticio() {
-        System.out.println("Este metodo tiene un error de sintaxis a proposito")
-        int x = "texto_incorrecto";
-    }
 }
