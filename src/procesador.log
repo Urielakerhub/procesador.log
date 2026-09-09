@@ -1,0 +1,17 @@
+sept 09, 2026 12:16:55 A. M. ProcesadorCalificaciones main
+INFORMACIÓN: Inicio de la aplicacion
+sept 09, 2026 12:16:55 A. M. ProcesadorCalificaciones main
+CONFIGURAR: Archivo configurado: calificaciones.txt
+sept 09, 2026 12:16:55 A. M. ProcesadorCalificaciones procesarArchivo
+GRAVE: Error al procesar archivo calificaciones.txt
+java.io.FileNotFoundException: calificaciones.txt (No existe el archivo o el directorio)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:106)
+	at java.base/java.io.FileReader.<init>(FileReader.java:60)
+	at ProcesadorCalificaciones.procesarArchivo(ProcesadorCalificaciones.java:57)
+	at ProcesadorCalificaciones.main(ProcesadorCalificaciones.java:41)
+
+sept 09, 2026 12:16:55 A. M. ProcesadorCalificaciones main
+INFORMACIÓN: Fin de la aplicacion
