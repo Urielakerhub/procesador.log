@@ -1,0 +1,25 @@
+ACTIVIDAD DE DIAGNÓSTICO
+1. ¿Qué información adicional muestra el mensaje del Logger?
+R: Muestra la fecha, la hora, el hilo (thread), la clase y el método desde donde se emitió el mensaje, además del nivel de importancia.
+
+2. ¿Aparece la fecha/hora? Sí.
+3. ¿Aparece el nombre de la clase? Sí.
+4. ¿Aparece el nivel del mensaje? Sí (ej. INFO, WARNING, SEVERE).
+5. ¿Cuál de los dos mecanismos proporciona más información para diagnosticar un problema? El Logger, ya que proporciona metadatos estructurados y control de niveles.
+
+
+TABLA DE NIVELES 
+| Configuración | SEVERE | WARNING | INFO | FINE |
+|---|---|---|---|---|
+| SEVERE | Sí | No | No | No |
+| WARNING | Sí | Sí | No | No |
+| INFO | Sí | Sí | Sí | No |
+| FINE | Sí | Sí | Sí | Sí |
+| ALL | Sí | Sí | Sí | Sí |
+
+
+EXPLICACIÓN DE CONCEPTOS 
+- Logger: Es el objeto central encargado de registrar los mensajes de la aplicación y clasificarlos según su importancia.
+- Handler: Es el componente de destino que decide a dónde van los registros (por ejemplo, a la consola con ConsoleHandler o a un archivo con FileHandler).
+- Level: Define la prioridad o severidad de un mensaje (desde SEVERE hasta FINEST).
+- Formatter: Se encarga de dar formato visual o estructurado a los registros de texto antes de escribirlos en la salida (como SimpleFormatter).
